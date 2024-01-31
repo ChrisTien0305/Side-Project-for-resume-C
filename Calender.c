@@ -69,8 +69,7 @@ int numberOfDays(int monthNumber, int year)
 
 	// February 
 	if (monthNumber == 1) { 
-		// If the year is leap then Feb 
-		// has 29 days 
+		// 如果年份是閏年，則二月擁有29天
 		if (year % 400 == 0 
 			|| (year % 4 == 0 
 				&& year % 100 != 0)) 
